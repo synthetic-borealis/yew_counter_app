@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  &__label {
+    font-size: 4rem;
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 8px;
+
+    & > button {
+      font-size: 1.5rem;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
